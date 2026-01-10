@@ -250,6 +250,10 @@ html, body {
     font-size: 22px;
 }
 
+.slide2-content-zag.for3s2 {
+    font-size: 20px;
+}
+
 .slide4-block1 {
     display: flex;
     position: relative;
@@ -300,3 +304,4 @@ html, body {
     max-height: 550px;
     overflow: hidden;
 }
+

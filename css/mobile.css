@@ -1,0 +1,118 @@
+@media (max-width: 768px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    .slide {
+        height: auto;
+        min-height: 100svh;
+    }
+
+    .slide img {
+        transform: rotate(180deg) scale(1.05);
+        transition: filter 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .slide-nav {
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .slide-nav-text {
+        font-size: 14px;
+    }
+
+    .slide1-layout {
+        padding: 20px !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slide-content.slide1-content {
+        font-size: 22px;
+        padding: 20px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .slide-layout.slide2-layout {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+        align-items: center;
+    }
+
+    .slide-content.slide2-content {
+        width: 90%;
+        max-width: none;
+        height: auto;
+        max-height: none;
+    }
+
+    .slide-layout.slide3-layout {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+
+    }
+
+
+    .slide3-block1,
+    .slide3-block2 {
+        width: 100%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+
+    .block1-content,
+    .block2-content {
+        width: 90%;
+        max-width: none;
+        max-height: none;
+        align-self: center;
+        font-size: 16px;
+        gap: 5px;
+    }
+
+    .slide2-content-zag.for3s {
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .slide2-content-zag.for3s2 {
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .slide4-block1,
+    .slide4-block2 {
+        width: 100%;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block3-content {
+        font-size: 22px;
+        max-height: none;
+        text-align: center;
+    }
+
+    .block4-content {
+        font-size: 16px;
+        max-height: none;
+        width: 100%;
+    }
+}
