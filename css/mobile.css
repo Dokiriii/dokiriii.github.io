@@ -64,6 +64,7 @@
     .slide3-block1,
     .slide3-block2 {
         width: 100%;
+        height: auto;
         padding-left: 0 !important;
         padding-right: 0 !important;
         display: flex;
@@ -79,9 +80,11 @@
         width: 90%;
         max-width: none;
         max-height: none;
+        min-height: auto;
         align-self: center;
         font-size: 16px;
         gap: 5px;
+        overflow: visible;
     }
 
     .slide2-content-zag.for3s {
